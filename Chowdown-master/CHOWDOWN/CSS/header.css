@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+body {
+	font-family: "Lato", sans-serif;
+	height: auto;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	 margin: 20px;
+	
+}
+header{
+	background-color: #F8070B;
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:6em;}
+sidenav a {
+	font-size: 18px;}
+
+.sidenav a:hover{
+	color: #FFFFFF;}
+	 
+.sidenav {
+	height:;
+	width: 0;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #F8070B;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 150px;
+	padding-bottom: 500px;
+
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 50px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #FFFFFF;
+	display: block;
+	transition: 0.2s
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+	color: #F58236;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>CHOWDOWN</title>
+</head>
+<link href="CHOWDOWN.css" rel="stylesheet">
+<script src="navbar.js"></script>
+<script src="input-number.js"></script>
+
+
+<body onload="myFunction()" style="margin:0;">
+<header>
+<!--Navigation Bar !-->
+<div class="container gray highlightTextIn">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	<center> <img src="Photos/happy-octo-reg.gif" height="50px" width="50px"></center>
+
+<a href="index.html"> Home </a>
+<a href="UserProfile.html"> Profile</a>
+<a href="Useraccount.html"> Account</a>
+<a href="UserImageGallery.html"> Gallery </a>
+<a href="UserRestarauntPage.html"> Restaurants  </a>
+<a href="Tab.html">Tabs</a>
+<a href="contact-us.html" >Contact Us</a>
+</div>
+<div class="nav">
+<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9776; </span>
+</div>
+</div>
+<!-- End of Navigation Bar!-->
+<span class="right_header"><a href="index.html"><img src="Photos/ChowDown_Transparent.gif" width="100px" height="100px"></a></span>
+</header>
+
+<div class="make">
+<center> <h1 style="border-bottom: #7D7D7D"> Make Reservation </h1></center>
+<form>
+<label for="name"> Name of Leader: <input type="text" name="name"></label>
+<label for="text"> Phone Number:
+<input  placeholder="xxx-xxx-xxxx" type="text" name="text"></label>
+
+<label for="email"> Email Address:
+<input type="email" name="email"></label>
+
+<label for="text"> Total of People:<input type="number" name="text"></label>
+
+<center> <a href="ReservationCompleted.html"><input type="submit" value="submit"></a></center>
+</form>
+	</div>
+
+</body>
+</html>

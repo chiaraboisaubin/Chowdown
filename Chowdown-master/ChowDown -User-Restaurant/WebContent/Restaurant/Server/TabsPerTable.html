@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<title>Tab Per Table</title>
+<link href="../../../CSS/server-side.css" rel="stylesheet">
+
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<header>
+<!--Navigation Bar !-->
+<div class="container gray highlightTextIn">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+<a href="EmployerMonthlySchedule.html"> Schedule</a>
+<a href="TableAssignment.html"> Table Layout</a>
+<a href="TabsPerTable.html"> Tab per Table</a>
+<a href="Menu.html">Menu</a>
+
+</div>
+<div class="nav">
+<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9776; </span>
+</div>
+</div>
+<!-- End of Navigation Bar!-->
+<div class="logo">	<center><span ><a href="index.html"><img src="../../../Images/ChowDown_Transparent.gif" width="50px" height="50px"></a></span></center>
+<h5>Employer's Name</h5>
+
+</div>
+	
+	</header>
+	
+	<div id="wrap">
+		<div id="header">Waiter Name</div>
+		<div id="tab" style="display: inline-block;">
+			Tab per Table
+			<div id="table">
+				Table 4
+				<ul id="guest">
+					<li>Guest 1:</li>
+					<ul id="orders">
+						<li>Bud Light 16oz $4.50</li>
+						<li>Supreme Nachos $10.99</li>
+						<li>Chicken Finger Salad $9.49</li>
+						<li>Total: $23.98</li>
+					</ul>
+					<li>Guest 2:</li>
+					<ul id="orders">
+						<li>Sam Light 16oz $4.50</li>
+						<li>Chicken Burrito $10.99</li>
+						<li>Total: $15.49</li>
+					</ul>
+					<li>Guest 3:</li>
+					<ul id="orders">
+						<li>Boston Lager 16oz $5.50</li>
+						<li>Steak & Cheese Sub $10.50</li>
+						<li>Total: $16.00</li>
+					</ul>
+				</ul>
+				Total: $55.47
+			
+		</div>
+		<div id="unselected-orders" class="unselected-orders">
+			<ul>
+				<input type="button" value="+"/> Table 6
+				<li>total: $83.90</li>
+			</ul>
+			<ul>
+				<input type="button" value="+"/> Table 7
+				<li>total: $73.20</li>
+			</ul>
+			<ul>
+				<input type="button" value="+"/> Table 8
+				<li>total: $43.90</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<title>Table Layout</title>
+<link href="../../../CSS/CD-resturant-all-.css" rel="stylesheet">
+</head>
+<style>
+	.active{
+  background-color:#d90000;
+  color:#fff;
+
+}
+	</style>
+<body onload="myFunction()" style="margin:0;">
+<header>
+<!--Navigation Bar !-->
+<div class="container gray highlightTextIn">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 
+<a href="CurrentDayRegistration.html"> Reservations</a>
+<a href="EmployeeSchedule.html"> Schedule</a>
+<a href="TableAssignment.html"> Table Layout</a>
+<a href="Adding-reservation.html"> Adding a Reservations</a> 
+
+</div>
+<div class="nav">
+<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9776; </span>
+</div>
+</div>
+<!-- End of Navigation Bar!-->
+<div class="logo">	<center><span ><a href="index.html"><img src="../../../Images/ChowDown_Transparent.gif" width="50px" height="50px"></a></span></center>
+<h5>Employer's Name</h5>
+
+</div>
+	
+	</header>
+<center>	
+<div class="table">
+	<h1> Table Assginment </h1>
+<table>
+<div id="top">
+
+<tr>
+	<td>
+<ul>
+	<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+	</div>
+	<td>
+<ul>
+	<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+	</div>
+		<td>
+<ul>
+
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+	</div>
+		<td>
+<ul>
+	<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+	</div>
+		<td>
+<ul>
+	<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+
+		<td>
+<ul>
+	<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+<div class="square"><li> <a href="HostReservationPage.html">Name </a></li></div>
+	</ul>
+	</td>
+</tr>
+</table>
+</center>
+
+<script>
+	$(document).ready(function(){
+  $('#id').click(function(){
+    $('#id).removeClass("active");
+    $(this).addClass("active");
+});
+});
+</script>
+<script src="../../../JS/  navbar-restaurant-user.js"></script>
+</body>
+</html>

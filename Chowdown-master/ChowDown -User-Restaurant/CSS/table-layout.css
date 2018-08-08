@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+
+/*table layout*/
+.container{
+	width: 100%;
+	height: auto;
+}
+.table ul, .table a, .table li{
+	text-decoration: none;
+	list-style: none;
+	padding: 10%;
+}
+.table{
+	height: auto;
+	width: 100%;
+}
+
+.square{
+	
+	border: 1px solid black;
+	width:100%;
+	height: auto;
+	padding: 25px;
+	margin: 10%;
+	left: 20%;
+
+	
+}
+.square:hover{
+	background-color: #971718;
+}
+.squareC{
+	border: 1px solid black;
+	display: inline-block;
+	background-color: red;
+	padding:50%;
+	margin: 10%;
+	
+	
+}
+.top{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.left{
+	
+	width: 10%;
+	height: auto;
+	float: left;
+}
+.right{
+	
+	float: right;
+}
+/*table layout end */
